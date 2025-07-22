@@ -27,10 +27,12 @@ cd Sonnen_Battery_Time
 
 
 ### Build Docker Image
+
 ```bash
 docker build -t Sonnen_Battery_Time
 
 ### Run the App
+
 ```bash
 docker run --rm -v "$PWD/input":/app/input -v "$PWD/output":/app/output Sonnen_Battery_Time
 
