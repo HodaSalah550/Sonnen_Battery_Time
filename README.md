@@ -17,21 +17,17 @@ whith an hourly summary.
 - pandas
 - Docker
 
-### To build Docker Image
+## 🚀 How to Run
 
 ```bash
+
+### To build Docker Image
 docker build -t Sonnen_Battery_Time
 
 ### Run the App
-
-```bash
 docker run --rm -v "$PWD/input":/app/input -v "$PWD/output":/app/output Sonnen_Battery_Time
 
-## 🚀 How to Run
-
 ### Clone the Repo
-
-```bash
 git clone https://github.com/HodaSalah550/Sonnen_Battery_Time.git
 cd Sonnen_Battery_Time
 
