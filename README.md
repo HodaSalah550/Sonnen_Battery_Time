@@ -19,6 +19,3 @@ whith an hourly summary.
 ```bash
 git clone https://github.com/HodaSalah550/Sonnen_Battery_Time.git
 cd Sonnen_Battery_Time
-
-Uncleaned data path: input/measurements_coding_challenge.csv
-Cleaned data path: output/cleaned_battery_data.csv
