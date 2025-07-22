@@ -12,6 +12,11 @@ whith an hourly summary.
 - Aggregates hourly data
 - Flags hour with highest grid feed-in
 
+## 🧱 Built With
+- Python 3.10
+- pandas
+- Docker
+
 ## 🚀 How to Run
 
 ### Clone the Repo
@@ -19,3 +24,16 @@ whith an hourly summary.
 ```bash
 git clone https://github.com/HodaSalah550/Sonnen_Battery_Time.git
 cd Sonnen_Battery_Time
+
+
+### Build Docker Image
+```bash
+docker build -t Sonnen_Battery_Time
+
+### Run the App
+```bash
+docker run --rm -v "$PWD/input":/app/input -v "$PWD/output":/app/output Sonnen_Battery_Time
+
+
+
+
